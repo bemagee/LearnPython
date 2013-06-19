@@ -1,4 +1,5 @@
 LearnPython
 ===========
 
-Learn Python
+Contents:
+Google Python Class Exercises

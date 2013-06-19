@@ -26,7 +26,8 @@
 def donuts(count):
   # +++your code here+++
   if count < 10:
-      return ('Number of donuts: count')
+      rtn_text = "Number of donuts: %d" % (count)
+      return (rtn_text)
   else:
       return ('Number of donuts: many')
 
@@ -38,10 +39,11 @@ def donuts(count):
 # is less than 2, return instead the empty string.
 def both_ends(s):
   # +++your code here+++
-  if s < 2:
-     return ('')
+  s_len = len(s)
+  if s_len < 2:
+    return ('')
   else: 
-     return s[2:-2]
+    return s[:2] + s[-2:]
 
 
 # C. fix_start
@@ -55,8 +57,10 @@ def both_ends(s):
 # where all instances of stra have been replaced by strb.
 def fix_start(s):
   # +++your code here+++
-  return
-
+    replace_char = s[:1]
+    close = s.replace(replace_char,'*')
+    got_it = close[1:]
+    return replace_char + got_it
 
 # D. MixUp
 # Given strings a and b, return a single string with a and b separated
@@ -66,8 +70,13 @@ def fix_start(s):
 #   'dog', 'dinner' -> 'dig donner'
 # Assume a and b are length 2 or more.
 def mix_up(a, b):
+  f2_a = a[:2]
+  f2_b = b[:2]
+  mix_a = f2_b + a[2:100] 
+  mix_b = f2_a + b[2:100]
   # +++your code here+++
-  return
+  mixed_right = "%s %s" % (mix_a, mix_b)
+  return mixed_right
 
 
 # Provided simple test() function used in main() to print
