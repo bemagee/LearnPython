@@ -5,4 +5,4 @@
 import subprocess
 
 # Simple command
-subprocess.call (['ls', '-1'])
+subprocess.call(['ls', '-l'])
