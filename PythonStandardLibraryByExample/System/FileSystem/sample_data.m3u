@@ -1,0 +1,31 @@
+
+<?xml version="1.0" ?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>
+      Sample podcast feed
+    </title>
+    <description>
+      Generated for PyMOTW
+    </description>
+    <pubDate>
+      Sun Nov 28 22:55:09 2010
+    </pubDate>
+    <generator>
+      http://www.doughellmann.com/PyMOTW/
+    </generator>
+  </channel>
+  <item>
+    <title>
+      episode-one.mp3
+    </title>
+    <enclosure type="audio/mpeg" url="episode-one.mp3"/>
+  </item>
+  <item>
+    <title>
+      episode-two.mp3
+    </title>
+    <enclosure type="audio/mpeg" url="episode-two.mp3"/>
+  </item>
+</rss>
+
