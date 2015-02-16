@@ -1,0 +1,6 @@
+2014-07-15.08:31:58     14607           system,/usr/bin/commands/access,%,daemon,R,any
+2014-07-15.08:32:00     14607   END
+2014-07-15.12:52:37     22255   ssh     ARGV=brmagee    SOC=git-receive-pack 'gitolite-admin'   FROM=10.17.22.60
+2014-07-15.12:52:37     22255   pre_git gitolite-admin  brmagee W       any     refs/.*
+2014-07-15.12:52:37     22255           system,git,shell,-c,git-receive-pack '/home/brmagee/repositories/gitolite-
+admin.git'

@@ -1,4 +1,3 @@
 #!/bin/sh
 
-python3 contemplate_koans.py
-
+c:\python33\python contemplate_koans.py

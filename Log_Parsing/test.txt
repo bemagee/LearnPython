@@ -1,0 +1,134 @@
+New text from Brian
+   14607           system,/usr/bin/triggers/post-compile/update-git-daemon-access-list,POST_C
+REATE,git_repos/repo_tools/atconfig
+2014-07-15.08:31:42     14607           system,/usr/bin/triggers/post-compile/update-git-configs,POST_CREATE,git_r
+epos/repo_tools/automation
+2014-07-15.08:31:42     14607           system,/usr/bin/triggers/post-compile/update-gitweb-access-list,POST_CREAT
+E,git_repos/repo_tools/automation
+2014-07-15.08:31:42     14607           system,/usr/bin/triggers/post-compile/update-git-daemon-access-list,POST_C
+REATE,git_repos/repo_tools/automation
+2014-07-15.08:31:42     14607           system,/usr/bin/triggers/post-compile/update-git-configs,POST_CREATE,git_r
+epos/repo_tools/avc
+2014-07-15.08:31:42     14607           system,/usr/bin/triggers/post-compile/update-gitweb-access-list,POST_CREAT
+E,git_repos/repo_tools/avc
+2014-07-15.08:31:42     14607           system,/usr/bin/triggers/post-compile/update-git-daemon-access-list,POST_C
+REATE,git_repos/repo_tools/avc
+2014-07-15.08:31:42     14607           system,/usr/bin/triggers/post-compile/update-git-configs,POST_CREATE,git_r
+epos/repo_tools/bin
+2014-07-15.08:31:42     14607           system,/usr/bin/triggers/post-compile/update-gitweb-access-list,POST_CREAT
+E,git_repos/repo_tools/bin
+2014-07-15.08:31:42     14607           system,/usr/bin/triggers/post-compile/update-git-daemon-access-list,POST_C
+REATE,git_repos/repo_tools/bin
+2014-07-15.08:31:42     14607           system,/usr/bin/triggers/post-compile/update-git-configs,POST_CREATE,git_r
+epos/repo_tools/build_tools
+2014-07-15.08:31:42     14607           system,/usr/bin/triggers/post-compile/update-gitweb-access-list,POST_CREAT
+E,git_repos/repo_tools/build_tools
+2014-07-15.08:31:42     14607           system,/usr/bin/triggers/post-compile/update-git-daemon-access-list,POST_C
+REATE,git_repos/repo_tools/build_tools
+2014-07-15.08:31:42     14607           system,/usr/bin/triggers/post-compile/update-git-configs,POST_CREATE,git_r
+epos/repo_tools/coverity
+2014-07-15.08:31:42     14607           system,/usr/bin/triggers/post-compile/update-gitweb-access-list,POST_CREAT
+E,git_repos/repo_tools/coverity
+2014-07-15.08:31:42     14607           system,/usr/bin/triggers/post-compile/update-git-daemon-access-list,POST_C
+REATE,git_repos/repo_tools/coverity
+2014-07-15.08:31:42     14607           system,/usr/bin/triggers/post-compile/update-git-configs,POST_CREATE,git_r
+epos/repo_tools/scripts
+2014-07-15.08:31:42     14607           system,/usr/bin/triggers/post-compile/update-gitweb-access-list,POST_CREAT
+E,git_repos/repo_tools/scripts
+2014-07-15.08:31:42     14607           system,/usr/bin/triggers/post-compile/update-git-daemon-access-list,POST_C
+REATE,git_repos/repo_tools/scripts
+2014-07-15.08:31:42     14607           system,/usr/bin/triggers/post-compile/update-git-configs,POST_CREATE,git_r
+epos/repo_tools/swperformance
+2014-07-15.08:31:42     14607           system,/usr/bin/triggers/post-compile/update-gitweb-access-list,POST_CREAT
+E,git_repos/repo_tools/swperformance
+2014-07-15.08:31:42     14607           system,/usr/bin/triggers/post-compile/update-git-daemon-access-list,POST_C
+REATE,git_repos/repo_tools/swperformance
+2014-07-15.08:31:42     14607           system,/usr/bin/triggers/post-compile/update-git-configs,POST_CREATE,git_r
+epos/repo_tools/tongatest
+2014-07-15.08:31:42     14607           system,/usr/bin/triggers/post-compile/update-gitweb-access-list,POST_CREAT
+E,git_repos/repo_tools/tongatest
+2014-07-15.08:31:42     14607           system,/usr/bin/triggers/post-compile/update-git-daemon-access-list,POST_C
+REATE,git_repos/repo_tools/tongatest
+2014-07-15.08:31:42     14607           system,/usr/bin/triggers/post-compile/update-git-configs,POST_CREATE,git_r
+epos/vendor/broadcom/common/bcm_image
+2014-07-15.08:31:42     14607           system,/usr/bin/triggers/post-compile/update-gitweb-access-list,POST_CREAT
+E,git_repos/vendor/broadcom/common/bcm_image
+2014-07-15.08:31:42     14607           system,/usr/bin/triggers/post-compile/update-git-daemon-access-list,POST_C
+REATE,git_repos/vendor/broadcom/common/bcm_image
+2014-07-15.08:31:42     14607           system,/usr/bin/triggers/post-compile/update-git-configs,POST_CREATE,gitol
+ite/gitolite-admin
+2014-07-15.08:31:42     14607           system,/usr/bin/triggers/post-compile/update-gitweb-access-list,POST_CREAT
+E,gitolite/gitolite-admin
+2014-07-15.08:31:42     14607           system,/usr/bin/triggers/post-compile/update-git-daemon-access-list,POST_C
+REATE,gitolite/gitolite-admin
+2014-07-15.08:31:42     14607           system,gitolite trigger POST_COMPILE
+2014-07-15.08:31:42     14607           system,/usr/bin/triggers/post-compile/ssh-authkeys,POST_COMPILE
+2014-07-15.08:31:53     14607           system,/usr/bin/triggers/post-compile/update-git-configs,POST_COMPILE
+2014-07-15.08:31:55     14607           system,/usr/bin/triggers/post-compile/update-gitweb-access-list,POST_COMPI
+LE
+2014-07-15.08:31:55     14607           system,/usr/bin/commands/access,%,gitweb,R,any
+2014-07-15.08:31:57     14607           system,/usr/bin/commands/git-config,-r,%,gitweb\.
+2014-07-15.08:31:58     14607           system,/usr/bin/triggers/post-compile/update-git-daemon-access-list,POST_C
+OMPILE
+2014-07-15.08:31:58     14607           system,/usr/bin/commands/access,%,daemon,R,any
+2014-07-15.08:32:00     14607   END
+2014-07-15.12:52:37     22255   ssh     ARGV=brmagee    SOC=git-receive-pack 'gitolite-admin'   FROM=10.17.22.60
+2014-07-15.12:52:37     22255   pre_git gitolite-admin  brmagee W       any     refs/.*
+2014-07-15.12:52:37     22255           system,git,shell,-c,git-receive-pack '/home/brmagee/repositories/gitolite-
+admin.git'
+2014-07-15.12:52:38     22255   update  gitolite-admin  brmagee W       refs/heads/master       bd420af7550de36ed4
+79f1ca1742c6618192e88e  7031367cfcc1f64ea16381ab06b84d18ac178098        refs/.*
+2014-07-15.12:52:39     22255           system,gitolite compile
+2014-07-15.12:52:47     22255           system,gitolite trigger POST_COMPILE
+2014-07-15.12:52:47     22255           system,/usr/bin/triggers/post-compile/ssh-authkeys,POST_COMPILE
+2014-07-15.12:52:51     22255           system,/usr/bin/triggers/post-compile/update-git-configs,POST_COMPILE
+2014-07-15.12:52:51     22255           system,/usr/bin/triggers/post-compile/update-gitweb-access-list,POST_COMPI
+LE
+2014-07-15.12:52:52     22255           system,/usr/bin/commands/access,%,gitweb,R,any
+2014-07-15.12:52:53     22255           system,/usr/bin/commands/git-config,-r,%,gitweb\.
+2014-07-15.12:52:54     22255           system,/usr/bin/triggers/post-compile/update-git-daemon-access-list,POST_C
+OMPILE
+2014-07-15.12:52:54     22255           system,/usr/bin/commands/access,%,daemon,R,any
+2014-07-15.12:52:55     22255   END
+New text from Brian
+New text from Brian
+New text to the top from Brian
+New text to the bottom from Brian
+New text to the top from Brian
+New text to the bottom from Brian
+New text to the top from Brian
+New text to the bottom from Brian
+New text to the top from Brian
+New text to the bottom from Brian
+New text to the top from Brian
+New text to the bottom from Brian
+New text to the top from Brian
+New text to the bottom from Brian
+New text to the top from Brian
+New text to the bottom from Brian
+New text to the top from Brian
+New text to the bottom from Brian
+New text to the top from Brian
+New text to the bottom from Brian
+New text to the top from Brian
+New text to the bottom from Brian
+New text to the top from Brian
+New text to the bottom from Brian
+New text to the top from Brian
+New text to the bottom from Brian
+New text to the top from Brian
+New text to the bottom from Brian
+New text to the top from Brian
+New text to the bottom from Brian
+New text to the top from Brian
+New text to the bottom from Brian
+New text to the top from Brian
+New text to the bottom from Brian
+New text to the top from Brian
+New text to the bottom from Brian
+New text to the top from Brian
+New text to the bottom from Brian
+New text to the top from Brian
+New text to the bottom from Brian
+New text to the top from Brian
+New text to the bottom from Brian
