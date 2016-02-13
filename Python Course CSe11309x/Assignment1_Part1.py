@@ -4,12 +4,13 @@
 # This function accepts three parameters in the exact order
 # (principal, annual_interest_rate, duration):
 
-# principal: The total amount of loan. Assume that the principal is a positive floating
+# *principal: The total amount of loan. Assume that the principal is a positive floating
 # point number.
 
-# annual_interest_rate: This is the percent interest rate per year. Assume that annual_interest_rate
+# *annual_interest_rate: This is the percent interest rate per year. Assume that annual_interest_rate
 # is a floating point number. (Notice that 4.5 means that the interest rate is 4.5 percent per year.)
-# duration: number of years to pay the loan back. Assume that duration is a positive integer.
+
+# *duration: number of years to pay the loan back. Assume that duration is a positive integer.
 # To calculate the amount of monthly payment for the loan you should use the following equation
 
 # MonthlyPayment = Principal * r(1+r)**n/(1+r)**n-1
@@ -38,8 +39,15 @@
 
 
 def my_loan (principal, annual_interest_rate, duration) :
+    print("principal= ", principal)
+    print("annual_interest rate= ", annual_interest_rate)
     monthly_rate = ((annual_interest_rate / 100) / 12)
-    return (principal * (monthly_rate * (1 + monthly_rate) ** duration) / ((1 + monthly_rate)** duration - 1))
+    duration_in_months = (duration *  12)
+    print("monthly_interest rate= ", monthly_rate)
+    print("duration in years= ", duration)
+    print("duration in months= ", duration_in_months)
+    return (principal * (monthly_rate * (1 + monthly_rate) ** duration_in_months) / ((1 + monthly_rate)** duration_in_months - 1))
 
 month_pay = my_loan(1000.0,4.5,5)
+print("loan amount is")
 print (month_pay)
