@@ -32,7 +32,7 @@ def my_loan (principal, annual_interest_rate, duration, payments_made) :
     print("duration in years = ", duration)
     print("duration in months = ", duration_in_months)
     print("payments already made = ", payments_made)
-    monthly_payments = (principal * (monthly_rate * (1 + monthly_rate) ** duration_in_months) / ((1 + monthly_rate)** duration_in_months - 1))
+    monthly_payments = (principal * ((monthly_rate * (1 + monthly_rate) ** duration_in_months) / ((1 + monthly_rate)** duration_in_months - 1)))
     print("total amount already paid = ", payments_made * monthly_payments)
     print("monthly payments = ", monthly_payments)
     return (principal - (payments_made * monthly_payments))

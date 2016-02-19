@@ -46,8 +46,14 @@ def my_loan (principal, annual_interest_rate, duration) :
     print("monthly_interest rate= ", monthly_rate)
     print("duration in years= ", duration)
     print("duration in months= ", duration_in_months)
+    interest_paid = month_pay - monthly_rate
+    principal_paid = month_pay - monthly_rate
+    print("paid year 1:", month_pay * 12)
+    print("principal paid year 1:", principal_paid)
+    print("interest paid year 1:", interest_paid)
     return (principal * (monthly_rate * (1 + monthly_rate) ** duration_in_months) / ((1 + monthly_rate)** duration_in_months - 1))
 
 month_pay = my_loan(1000.0,4.5,5)
 print("loan amount is")
 print (month_pay)
+print("balance after year 1:", 1000 - month_pay * 12)
