@@ -2,6 +2,7 @@
 
 import math
 def is_prime(n):
+    my_list = []
     if n % 2 == 0 and n > 2:
         print(False)
     for i in range(1, n):
@@ -12,5 +13,5 @@ def is_prime(n):
                     print(False)
     return(my_list)
 
-my_nums = is_prime(5)
+my_nums = is_prime(7)
 print(my_nums)

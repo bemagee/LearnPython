@@ -16,9 +16,16 @@
 # Notice the last number in this sequence has 3 digits. The return value should be:
 # 615
 
-def pattern_sum(a, b):
-    for i in range(1,b) :
 
+def pattern_sum(a, b):
+    sum_total = 0
+    string_hold = '' 
+    string_list = []
+    for i in range(1, b+1) :
+        string_hold = str(a) * i
+        string_list.append(string_hold)
+    for item in string_list :
+        sum_total += int(item)
     return(sum_total)
 
 tot = pattern_sum(5,3)
