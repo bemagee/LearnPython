@@ -6,10 +6,10 @@
 
 def list_of_primes(n):
     my_list = []
-    for i in range(1, n):
-        if not n % i == 0:
-            my_list.append(i)
-    return(my_list)
+    for i in range(2, n):
+#        if not n % i == 0:
+        my_list.append(i)
+    return(my_list.sort())
 
 prnt_list = list_of_primes(5)
 print(prnt_list)

@@ -43,32 +43,58 @@ tens_list =  [ '', '', 'twenty', 'thirty', 'forty', 'fifty', 'sixty', 'seventy',
 
 for i in string_num :
 #    print(i , 'of size ', len_of_num)
+
+print_string = 0
+print_string2 = 0
+print_string3 = 0
+print_string4 = 0
+print_string5 = 0
+
     if len_of_num >= 4 :
         pos = int(i)
         if pos > 0 :
             print (single_list[pos], 'thousand ', end = "a")
+            print_string = "single_list[pos] thousand"
         len_of_num -= 1
     elif len_of_num >= 3 :
         pos = int(i)
         if pos > 0 :
             print (single_list[pos], 'hundred ', end = "b")
+            print_string2 =  "single_list[pos] hundred"
         len_of_num -= 1
     elif len_of_num >= 2 :
         test = int(string_num)
         if test  <= 19 :
             print (single_list[test])
+            print_string3 = "single_list[test]"
             len_of_num -= 1
             break
         pos = int(i)
         pos_next = (int(i)-1)
         if pos > 0 and (test == 20 or test == 30 or test == 40 or test == 50 or test == 60 or test == 70 or test == 80 or test == 90) :
             print (tens_list[pos], end = "")
+            print_string4 = "tens_list[pos]"
             len_of_num -= 2
         else:
             print (tens_list[pos], end = " ")
+            print_string4 = "tens_list[pos]"
         len_of_num -= 1
     else:
         pos = int(i)
         if pos > 0 :
             print (single_list[pos]) 
+            print_string5 = "single_list[pos]"
    
+# construct the print statement
+if print_string:
+    print_all = print_string
+if print_string2:
+    print_all += print_string2
+if print_string3:
+    print_all += print_string3
+if print_string4:
+    print_all += print_string4
+if print_string5:
+    print_all += print_string5
+    
+print (print_all)
