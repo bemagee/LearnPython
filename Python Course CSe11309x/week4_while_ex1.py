@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 # Write a program which prints the sum of numbers from 1 to 101 ( 1 and 101 are included) that are divisible by 5
 
 nums = 1
