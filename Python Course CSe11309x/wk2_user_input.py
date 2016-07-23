@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 # quick file to try using input function for user input
 
 user_response = input("Enter the temp in Celsius: ")
